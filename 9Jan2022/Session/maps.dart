@@ -6,6 +6,9 @@ void main() {
     {"Ishaq": 100, "Hassan": 200},
     {"Ishaq1": 100, "Hassan1": 200},
   ];
-  String nameToFind = "Ishaq";
-  print(marks2[0]);
+  marks2[0]["Ishaq"] = 200;
+  print(marks2[0]["Ishaq"]);
+  String nameToFind = "Ishaq1";
+  int row0 = 1;
+  print(marks2[row0][nameToFind]);
 }

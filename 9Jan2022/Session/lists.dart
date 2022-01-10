@@ -1,6 +1,7 @@
 void main() {
   //                 0  1  2  3  4  5
   List<int> marks = [1, 2, 3, 4, 5, 6];
+  marks[0] = 10;
   print(marks[0] + marks[1]);
   //                      0         1         2        3        4         5
   List<String> friends = ["Ishaq", "Ali", "Usama", "Talha", "Hasan", "Pata nh"];
@@ -10,13 +11,11 @@ void main() {
   friends = ["Heloo", "World"];
   print(friends);
   print(["Heloo", "World"]);
-
-  List<String> section2 = ["Ok", "Good", "Dart", "Hello"];
-  List<List<List<String>>> sections = [
-    [
-      ["Ishaq", "Ali", "Noman"]
-    ],
-    [section2]
+  List<String> section1 = ["Ishaq", "Ali", "Hasan"];
+  List<List<String>> sections = [
+    section1,
+    ["Usama", "Ahsan", "Jamal"]
   ];
-  print(sections[1][0]);
+  // RC , R = Row, C = Col
+  print(sections[0][0]);
 }
