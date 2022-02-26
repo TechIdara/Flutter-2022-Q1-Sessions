@@ -8,6 +8,7 @@ void main(List<String> args) {
     //managerBanaSportsMan.play();
   }
 
+
   //(manager as Graduate).study();
 
   (Teacher() as Graduate).study();
