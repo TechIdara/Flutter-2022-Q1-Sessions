@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "288120263683",
+    "project_id": "stacked-techidara-1",
+    "storage_bucket": "stacked-techidara-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288120263683:android:8d62dce50a013c37c82a36",
+        "android_client_info": {
+          "package_name": "com.example.stacked_explained"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288120263683-et6t4cun209g6k1e1bsi7v5ini4e5qlf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBew7W__z_DQI8pWgC5QLwX5sTXUcUMrk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288120263683-et6t4cun209g6k1e1bsi7v5ini4e5qlf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
